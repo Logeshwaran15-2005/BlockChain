@@ -1,0 +1,346 @@
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: black;
+    }
+    .navbar
+    {
+        display: flex;
+        margin-top: 20px;
+        padding-left: 20px;
+        justify-content: space-between;
+    }
+    .nav-icon
+    {
+        color: white;
+        font-size: 30px ;
+        display: none;
+    }
+    .navbar h1
+    {
+        color: white;
+        font-size: 22px;
+    }
+    .nav-img
+    {
+        align-items: center;
+    }
+    nav a
+    {
+       text-decoration: none; 
+       padding: 20px;
+       color: white;
+       margin-top: 90px ;
+    }
+    .btn
+    {
+        color: white;
+        background-color: orange;
+        width: 7%;
+        height: 30px;
+        border-radius: 20px;
+    }
+
+/* main page */
+    .main
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-crypto
+    {
+        padding: 170px 100px;
+        font-size:xx-large;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .main-crypto p
+    {
+        color: lightslategray;
+        font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-weight: 350;
+        line-height: 1.4;
+        font-size: 25px; 
+        
+    }
+    .btn1
+    {
+        color: white;
+        background-color: #E17773;
+        width: 100px;
+        height: 30px;
+        border-radius: 20px;
+    }
+    .pointer
+    {
+        justify-self:center;
+        margin-top: 10px;
+    }
+/* Lottery */
+    .lottery-page
+    {
+        color: white;
+        padding: 100px;
+        font-size: 25px;
+    }
+    .lottery-page h1
+    {
+        font-weight: 550;
+        font-size: 50px; 
+    }
+    .lottery-page p
+    {
+        font-size: 20px;
+        font-family: serif;
+        color: lightslategray;
+        font-weight: 350;
+        line-height: 1.2;
+        font-size: 25px; 
+    }
+    .lotery-container
+    {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .card
+    {
+        border:2px solid white ;
+        width: 380px;
+        height: 320px;
+        padding: 2rem 4.10%;
+        border-radius: 10px;
+    }
+    .card img
+    {
+        height: 190px;
+    }
+    .price
+    {
+        margin-top: 30px;
+        width: 120px;
+        height: 40px;
+        color:black ;
+        background-color: #E17773;
+        border-radius: 20px;
+    }
+    .bye
+    {
+       
+        margin-top: 30px;
+        width: 120px;
+        height: 40px; 
+        color:black ;
+        background-color:#CCC;
+        border-radius: 20px;
+    }
+    .lodding
+    {
+        justify-self:center;
+        margin-top: 100px;
+    }
+/* staking */
+    .staking
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 80px;
+    }
+    .staking-1
+    {
+        color: white;
+        padding: 200px;
+    }
+    .staking-1 h1
+    {
+        font-size: 40px;
+        line-height: 2.0;
+
+    }
+    .staking-1 p
+    {
+        color: lightslategray;
+        font-weight: 350;
+        line-height: 1.2;
+    }
+    .btn2
+    {
+        color: white;
+        background-color: #E17773;
+        width: 150px;
+        height: 35px;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+    /* ABBC */
+    .abbc-1 img
+    {
+        height: 80px;
+        padding: 10px;
+        
+    }
+    .abbc-2 img
+    {
+        height: 80px;
+        padding: 10px;
+    }
+    /* DAO */
+    .dao
+    {
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+    }
+    .dao-1 h1
+    {
+        color: white;
+        font-size: 60px;
+    }
+    .dao-1 p
+    {
+       color: lightslategray; 
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 20px;
+    }
+    .frame img
+    {
+        width: 450px;
+        height: 450px;
+    }
+    /* launchpad */
+    .launchpad
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 200px;
+    }
+    .launchpad-1 h1
+    {
+        color: white;
+        font-size: 50px;
+    }
+    .launchpad-1 p
+    {
+       color: lightslategray; 
+       font-size: 20px; 
+    }
+    /* Learn to Earn */
+    .Learn
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .Learn-1 h1
+    {
+        color: white;
+        font-size: 40px;
+    }
+    .Learn-1 p
+    {
+       color: lightslategray; 
+       font-size: 20px;  
+    }
+    /* Seed Funding */
+    .funding
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 200px;
+        margin-top: 60px;
+    }
+    .funding-1 h1
+    {
+        color: white;
+        font-size: 40px;
+    }
+    .funding-1 p
+    {
+        color: lightslategray;
+        font-size: 20px;
+    }
+    /* NFT */
+    .nft
+    {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 200px;
+    }
+    .nft-1
+    {
+        color: white;
+        color: lightslategray;
+        border:2px solid ;
+        width: 380px;
+        height: 320px;
+        /* padding: 2rem 5%; */
+        border-radius: 10px;
+        padding: 50px;
+    }
+    .nft-1 img
+    {
+        margin-bottom: 20px;
+        margin-left: 95px;
+    }
+    .nft-1 h2
+    {
+        font-size:large;
+        color: white;
+        margin-left: 50px;
+    }
+    .nft-1 p
+    {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 11px;
+
+    }
+    .nft-1 h3
+    {
+        color: white;
+        margin-left: 100px;
+    }
+    /* ICON */
+    .icon
+    {
+        margin-top: 200px;
+    }
+    .icon-1
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+    .icon p
+    {
+        color: white;
+        text-align: center;
+        padding: 100px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:x-large;
+    }
+    .icon-2
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+    /* FOOTER */
+    .footer
+    {
+        display: flex;
+        /* justify-content: space-evenly; */
+        margin-top: 150px;
+        padding: 100px;
+        gap: 300px;
+    }
+    .footer-1
+    {
+        color: white;
+    }
+    .footer-1 p
+    {
+        color: lightslategrey;
+    }
